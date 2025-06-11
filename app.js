@@ -56,22 +56,19 @@
 // =================================================================================
 // ✅ Question 5: Find and Remove
 // You have an array of 7 items.
-
 // Find the index of "apple".
-
 // If it exists, remove it from the array.
-
 // If not, add "apple" at the end of the array.
 // ans 
 
-// var fruits = ['apple','mango','grapes','lemon','orange','dates','guava'];
-// var ind = fruits.indexOf('apple');
-// if (ind !== -1){fruits.splice(ind,1)
-// {alert(fruits)}
-// }
-// else{fruits.push(ind)
-//     alert(fruits)
-// }
+ var fruits = ['apple','mango','grapes','lemon','orange','dates','guava'];
+ var ind = fruits.indexOf('apple');
+ if (ind !== -1){fruits.splice(ind,1)
+ {alert(fruits)}
+ }
+ else{fruits.push(ind)
+     alert(fruits)
+ }
 // ======================================================================
 // ✅ Question 6: Compare Two Arrays
 // You have two arrays:
